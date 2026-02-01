@@ -137,6 +137,13 @@
   filter: opacity(50%);
 }
 
+@supports (-webkit-text-stroke: 1px #FFFFFF) or (text-stroke: 1px #FFFFFF) {
+  .label {
+    -webkit-text-stroke: 1px #FFFFFF;
+    text-stroke: 1px #FFFFFF;
+  }
+}
+
 .text-card {
   max-width: 646px;
   font-size: 18px;
