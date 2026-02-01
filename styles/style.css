@@ -10,7 +10,9 @@
 
 */
 
-
+html {
+  font-variation-settings: 'wght' 400;
+}
 
 .page {
   min-inline-size: 320px;
