@@ -157,7 +157,7 @@ html {
 }
 
 .text-in-the-card {
-  font-family: var(--main-font-family), sans-serif ;
+  font-family: var(--main-font-family), sans-serif;
   font-variation-settings: 'wght' 410;
   line-height: 21px;
   font-size: var(--main-font-size);
@@ -282,6 +282,7 @@ html {
   grid-template-columns: auto 1fr;
   gap: 20px;
   line-height: 150%;
+  font-family: var(--other-font-family), cursive;
 }
 
 .modal-floppy-icon {
@@ -297,10 +298,6 @@ html {
   display: block;
   text-transform: uppercase;
   padding: 10.5px 130.5px;
-}
-
-.main__text-modal {
-  font-family: var(--other-font-family), cursive;
 }
 
 [popover] {
