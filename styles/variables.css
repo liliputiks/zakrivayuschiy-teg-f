@@ -7,4 +7,6 @@
   --border: 2px solid #000;
   --contour-color: #000000;
   --animation-fill-color: #ff0000;
+  --main-background-color: #fff;
+  --label-shadow: 1px #fff;
 }
