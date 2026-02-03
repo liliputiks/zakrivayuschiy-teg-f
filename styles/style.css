@@ -261,7 +261,6 @@ html {
 }
 
 .icon-btm {
-  mix-blend-mode: difference;
 }
 
 .container-modal-window {
@@ -305,6 +304,10 @@ html {
 }
 
 #floppy {
+  color: #000;
+}
+
+.icon-btm {
   color: #000;
 }
 
