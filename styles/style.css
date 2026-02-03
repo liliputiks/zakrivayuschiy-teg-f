@@ -66,7 +66,7 @@ html {
 }
 
 .main__title {
-  font-size: clamp(49px, 5vw + 1rem, 63px);
+  font-size: clamp(49px, 5vw + 1rem, 65px);
 }
 
 .taglines {
@@ -254,13 +254,10 @@ html {
 
 .open-modal__window {
   gap: 8px;
-  padding: 17px 20px;
+  padding: 16px 20px;
   margin: 0 auto;
   margin-bottom: 100px;
   grid-template-columns: auto 1fr;
-}
-
-.icon-btm {
 }
 
 .container-modal-window {
@@ -303,12 +300,9 @@ html {
   padding: 0;
 }
 
-#floppy {
-  color: #000;
-}
-
 .icon-btm {
   color: #000;
+  mix-blend-mode: difference;
 }
 
 @media (width <=375px) {
