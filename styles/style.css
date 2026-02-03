@@ -304,6 +304,10 @@ html {
   padding: 0;
 }
 
+#floppy {
+  color: #000;
+}
+
 @media (width <=375px) {
   .main {
     margin-top: 100px;
