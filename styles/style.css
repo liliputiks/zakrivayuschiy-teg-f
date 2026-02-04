@@ -302,8 +302,9 @@ html {
 }
 
 .icon-btm {
-  fill: #fff;
+  fill: red;
   mix-blend-mode: difference;
+  display: block;
 }
 
 @media (width <=375px) {
