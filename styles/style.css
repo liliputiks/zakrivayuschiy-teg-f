@@ -258,6 +258,7 @@ html {
   margin: 0 auto;
   margin-bottom: 100px;
   grid-template-columns: auto 1fr;
+  isolation: isolate;
 }
 
 .container-modal-window {
@@ -301,8 +302,8 @@ html {
 }
 
 .icon-btm {
-  fill: #000;
-  color: #000;
+  fill: #fff;
+  color: #fff;
   mix-blend-mode: difference;
 }
 
