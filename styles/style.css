@@ -303,6 +303,7 @@ html {
 
 .icon-btm {
   fill: #000;
+  color: #000;
   mix-blend-mode: difference;
 }
 
