@@ -301,10 +301,12 @@ html {
 }
 
 #floppy {
+  fill: #000;
   color: #000;
 }
 
 .icon-btm {
+  fill: #000;
   color: #000;
 }
 
