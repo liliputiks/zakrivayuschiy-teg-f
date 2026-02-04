@@ -302,7 +302,6 @@ html {
 
 .icon-btm {
   color: #000;
-  z-index: 1;
 }
 
 @media (width <=375px) {
