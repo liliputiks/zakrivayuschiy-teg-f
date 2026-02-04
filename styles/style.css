@@ -300,14 +300,9 @@ html {
   padding: 0;
 }
 
-#floppy {
-  fill: #000;
-  color: #000;
-}
-
 .icon-btm {
   fill: #000;
-  color: #000;
+  mix-blend-mode: difference;
 }
 
 @media (width <=375px) {
