@@ -302,7 +302,7 @@ html {
 
 .icon-btm {
   color: #000;
-  mix-blend-mode: difference;
+  z-index: 1;
 }
 
 @media (width <=375px) {
