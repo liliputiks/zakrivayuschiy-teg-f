@@ -135,7 +135,7 @@ html {
   mix-blend-mode: hard-light;
   font-size: var(--other-font-size);
   font-family: var(--other-font-family), cursive;
-  -webkit-text-stroke: var(--label-shadow);
+  text-shadow: 0 0 1px var(--border-label);
   top: 25px;
   right: 25px;
   filter: opacity(50%);
@@ -187,13 +187,13 @@ html {
 }
 
 .button__text {
-  color: #fff;
+  color: var(--main-color-text);
   mix-blend-mode: difference;
 }
 
 .animation-btm::before {
   content: '';
-  background-color: #000000;
+  background-color: var(--other-background-color);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -221,7 +221,7 @@ html {
 .animation-btm:focus-visible {
   outline: none;
   transition: 0.3s ease;
-  box-shadow: 2px 2px #000000;
+  box-shadow: var(--box-shadow);
 }
 
 .card__icon-button {
@@ -239,7 +239,7 @@ html {
 
 .card__icon-button:focus-visible {
   transition: 0.3s ease;
-  outline: 2px solid #000;
+  outline: var(--border);
 }
 
 .button {
@@ -249,7 +249,9 @@ html {
   align-items: center;
   background-color: var(--main-background-color);
   border: var(--border);
-  color: #fff;
+  color: var(--main-color-text);
+  position: relative; 
+  overflow: hidden; 
 }
 
 .open-modal__window {
@@ -269,7 +271,6 @@ html {
 
 .main__menu {
   border: var(--border);
-
 }
 
 .main__text-modal {
@@ -301,7 +302,7 @@ html {
 }
 
 .icon-btm {
-  fill: #fff;
+  fill: var(--fill);
   mix-blend-mode: difference;
 }
 

@@ -62,10 +62,3 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
-
-.open-modal__window,
-.card__like-button,
-.close-modal__window {
-  position: relative;
-  overflow: hidden;
-}

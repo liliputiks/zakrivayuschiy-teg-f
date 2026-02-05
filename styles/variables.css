@@ -8,5 +8,10 @@
   --contour-color: #000000;
   --animation-fill-color: #ff0000;
   --main-background-color: #fff;
+  --other-background-color: #000;
+  --border-label: #fff;
   --label-shadow: 1px #fff;
+  --main-color-text: #fff;
+  --box-shadow: 2px 2px #000;
+  --fill: #fff;
 }
