@@ -250,8 +250,8 @@ html {
   background-color: var(--main-background-color);
   border: var(--border);
   color: var(--main-color-text);
-  position: relative; 
-  overflow: hidden; 
+  position: relative;
+  overflow: hidden;
 }
 
 .open-modal__window {
